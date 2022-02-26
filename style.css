@@ -1,0 +1,55 @@
+body{
+    background-color: lawngreen;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+#header{
+    background-color: white;
+    color: violet;
+    margin-top: -20px;
+    font-family: 'Bebas Neue', cursive;
+}
+#main-div{
+    display: flex;
+    margin-bottom: 0;
+    padding: 10px;
+}
+#snapshot-div{
+    background-color: cyan;
+    border: 5px black solid;
+    box-shadow: 4px 5px 18px black;
+    width: 50%;
+    
+    
+}
+#webcam-div{
+    background-color: yellow;
+    border: 5px black solid;
+    box-shadow: 5px 5px 18px black;
+    width: 50%;
+    
+}
+button{
+    font-size: 20px !important;
+    width: 200px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold !important;
+}
+.footer-div h4{
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 5px 3px 18px white;
+    margin-bottom: 20px;
+}
+.copy-right-div{
+    background-color: white;
+    color: grey;
+    line-height: 3;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
